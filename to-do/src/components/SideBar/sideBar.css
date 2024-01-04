@@ -1,0 +1,33 @@
+.sideBar {
+    background-color: #45280b;
+    padding: 20px;
+    border-radius: 0 0 0 10px;
+    flex-grow: 1;
+}
+.todoForm input,
+.todoForm textarea{
+    border: none;
+    background-color:#ebd6ab ;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.todoForm input:focus-visible,
+.todoForm textarea:focus-visible {
+    outline: 1px dashed #c7f0f9;
+    border-radius: 3px;
+}
+
+.todoForm textarea {
+    height: 100px;
+}
+
+.todoForm button {
+    background-color: #c7f0f9;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}

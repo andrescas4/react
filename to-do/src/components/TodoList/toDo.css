@@ -1,0 +1,28 @@
+.todoList {
+    background-color: #45280b;
+    border-radius: 0 0 10px 0;
+}
+.todoList li {
+    padding: 10px;
+    color: #ebd6ab;
+    border-left: dashed 1px #ebd6ab;
+    border-bottom: dashed 1px #ebd6ab;
+    display: flex;
+}
+.todoList input {
+    margin-left: auto;
+}
+.todoList li h2 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.todoList li p {
+    font-size: 13px;
+}
+.todoList li:last-child {
+    border-radius: 0 0 10px 0;
+    border-bottom: none;
+}
+aside{
+    width: 100%;
+}

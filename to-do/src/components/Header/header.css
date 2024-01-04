@@ -1,0 +1,12 @@
+.logo {
+    font-family: 'Rubik Doodle Shadow' ;
+    font-size: 40px;
+    color: #ebd6ab;
+}
+.header {
+    background-color: #45280b;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    border-bottom: dashed 1px #ebd6ab;
+}
